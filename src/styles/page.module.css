@@ -1,0 +1,54 @@
+.background {
+  min-height: 100vh; /* Ensures the background color covers the full viewport height */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+}
+
+.textSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+  gap: 10px;
+}
+
+.photoSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.photo {
+  border-radius: 50%; /* Example to make the photo circular */
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+  height: auto;
+}
+
+.highlight {
+  color: #0070f3; /* Example color for your name */
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #0070f3; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #005bb5; /* Darker shade for hover effect */
+}
